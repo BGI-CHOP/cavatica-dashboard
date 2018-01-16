@@ -1,0 +1,73 @@
+callback({
+	"descrpiton": "CAVATIC provides support for a research model that is patient-centered and integrative in which access to data and collaborative discovery is empowered across the entire healthcare community of academic, governmental, and industry-based researchers. CAVATICA supports data storage and shared analysis for diverse published and newly generated data sets including Whole Exome Sequence, Whole Genome Sequence, RNA-Seq, Genotyping Array, miRNA-Seq, and Methylation Arrays.",
+	"diagnosis":[
+		{"name":"Schizophrenia","y":13653},
+		{"name":"Cardiac Birth Defects","y":4073},
+		{"name":"Breast Invasive Carcinoma","y":1098},
+		{"name":"Epilepsy","y":783},
+		{"name":"Glioblastoma Multiforme","y":617},
+		{"name":"Ovarian Serous Cystadenocarcinoma","y":608},
+		{"name":"Lung Adenocarcinoma","y":585},
+		{"name":"Uterine Corpus Endometrial Carcinoma","y":560},
+		{"name":"Kidney Renal Clear Cell Carcinoma","y":537},
+		{"name":"Head and Neck Squamous Cell Carcinoma","y":528},
+		{"name":"Brain Lower Grade Glioma","y":516},
+		{"name":"Thyroid Carcinoma","y":507},
+		{"name":"Lung Squamous Cell Carcinoma","y":504},
+		{"name":"Prostate Adenocarcinoma","y":500},
+		{"name":"Stomach Adenocarcinoma","y":478},
+		{"name":"Skin Cutaneous Melanoma","y":470},
+		{"name":"Colon Adenocarcinoma","y":463},
+		{"name":"Bladder Urothelial Carcinoma","y":412},
+		{"name":"Liver Hepatocellular Carcinoma","y":377},
+		{"name":"Cervical Squamous Cell Carcinoma and Endocervical Adenocarcinoma","y":308},
+		{"name":"Kidney Renal Papillary Cell Carcinoma","y":291},
+		{"name":"Sarcoma","y":261},
+		{"name":"Acute Myeloid Leukemia","y":200},
+		{"name":"Medulloblastoma", "y": 185},
+		{"name":"Esophageal Carcinoma","y":185},
+		{"name":"Pancreatic Adenocarcinoma","y":185},
+		{"name":"Pheochromocytoma and Paraganglioma","y":179},
+		{"name":"Rectum Adenocarcinoma","y":172},
+		{"name":"Testicular Germ Cell Tumors","y":150},
+		{"name":"Thymoma","y":124},
+		{"name":"Kidney Chromophobe","y":113},
+		{"name":"Adrenocortical Carcinoma","y":92},
+		{"name":"Mesothelioma","y":87},
+		{"name":"Uveal Melanoma","y":80},
+		{"name":"Lymphoid Neoplasm Diffuse Large B-cell Lymphoma","y":58},
+		{"name":"Uterine Carcinosarcoma","y":57},
+		{"name":"Cholangiocarcinoma","y":51},
+		{"name":"Craniopharyngioma", "y": 43},
+		{"name":"High Grade Glioma", "y": 34},
+		{"name":"Low Grade Glioma", "y": 32},
+		{"name":"Diffuse Intrinsic Pontine Glioma", "y": 23},
+		{"name":"Ependymoma", "y": 23},
+		{"name":"Supratentorial or Spinal Cord PNET", "y": 14},
+		{"name":"Chordoma", "y": 10}
+	],
+	"user":[
+		{"name":"Academic","id":"Academic","y":253},
+		{"name":"Commercial","id":"Commercial","y":37},
+		{"name":"Foundation","id":"Foundation","y":12},
+		{"name":"Others","id":"Others","y":8}
+	],
+	"dataset":[
+		{"name": "The Cancer Genome Atlas", "id":"TCGA", "y":268541},
+		{"name": "Tree Care Industry Association", "id": "TCIA", "y":21265},
+		{"name": "Clinical Proteomic Tumor Analysis Consortium", "id": "CPTAC", "y":14114},
+		{"name": "Therapeutically Applicable Research To Generate Effective Treatments", "id":"TARGET", "y":6183},
+		{"name": "Children's Brain Tumor Tissue Consortium", "id":"CBTTC", "y":2090},
+		{"name": "Pacific Pediatric Neuro-Oncology Consortium", "id":"PNOC", "y":490},
+		{"name": "Others", "id": "Others", "y": 370}
+	],
+	"file":[
+		{"name": "Adult Cancers", "id": "Adult Cancers", "y": 11315 },
+		{"name": "Pediatric Cancers", "id": "Pediatric Cancers", "y": 6760 },
+		{"name": "Birth Defects", "id": "Birth Defects", "y": 24835}
+	],
+	"app":[
+		{"name": "Published Pipelines", "id": "Published Pipelines", "y": 29}, 
+		{"name": "Bioinformatics Tools", "id": "Bioinformatics Tools", "y": 247}
+	]
+})

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Cavatica Dashboard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://use.fontawesome.com/c3be0528c1.js"></script>
+    <script src="src/script.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<style>
+    body {background: #2d3f4f;}
+    .card-green  {background-color: #3d763e; color: #dff0d8;}
+    .card-blue   {background-color: #34708f; color: #daedf7;}
+    .card-yellow {background-color: #896d3c; color: #fcf8e3;}
+    .card-red    {background-color: #a84343; color: #f2dede;}
+    .card-purple {background-color: #7153ac; color: #d4cbe6;}
+    .pie-chart   {min-width: 100px; min-height: 300px;}
+</style>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="col-xs-12">
+            <div align="center">
+                <img src="src/logo.png">
+            </div>
+
+            <br>
+
+            <i><p id="description" style="color:white;font-size:110%"></p></i>
+
+            </div>
+            <!-- user -->
+            <div class="col-md-6 col-xs-12">
+                <div class="card card-green">
+                    <div class="card-header card-green">
+                        <div class="col-xs-2">
+                            <i class="fa fa-users fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            Users <h4 id="UserNum"></h4>
+                        </div>
+                    </div>
+                    <div class="pie-chart" id="user"></div>
+                </div>
+            </div>
+            <!-- datasets -->
+            <div class="col-md-6 col-xs-12">
+                <div class="card card-purple">
+                    <div class="card-header card-purple">
+                        <div class="col-xs-2">
+                            <i class="fa fa-database fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            Datasets By Research Program <h4 id="DataNum"></h4>
+                        </div>
+                    </div>
+                    <div class="pie-chart" id="dataset"></div>
+                </div>
+            </div>
+            <!-- files -->
+            <div class="col-md-6 col-xs-12">
+                <div class="card card-yellow">
+                    <div class="card-header card-yellow">
+                        <div class="col-xs-2">
+                            <i class="fa fa-files-o fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            Files By Diagnosis <h4 id="FileNum"></h4>
+                        </div>
+                    </div>
+                    <div class="pie-chart" id="file"></div>
+                </div>
+            </div>
+            <!-- apps -->
+            <div class="col-md-6 col-xs-12">
+                <div class="card card-red">
+                    <div class="card-header card-red">
+                        <div class="col-xs-2">
+                            <i class="fa fa-cog fa-2x"></i>
+                        </div>
+                        <div class="col-xs-10">
+                            Apps <h4 id="AppNum"></h4>
+                        </div>
+                    </div>
+                    <div class="pie-chart" id="app"></div>
+                </div>
+            </div>
+            <!-- diagnosis -->
+            <div class="col-md-12">
+                <div class="card card-blue">
+                    <div class="card-header card-blue">
+                        <i class="fa fa-bar-chart fa-1x"></i>&nbsp;&nbsp;&nbsp;Cases Per Diagnosis Available Via Portal
+                    </div>
+                    <div id="diagnosis" style="min-width: 100px; min-height: 600px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
