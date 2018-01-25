@@ -1,7 +1,7 @@
 # library sevenbridges API
 import sevenbridges as sbg
 # link my API
-xyApi=sbg.Api(url='https://cavatica-api.sbgenomics.com/v2',token='d6a1bc927ca84f46b15ae270567d3ed6')
+xyApi=sbg.Api(url='https://cavatica-api.sbgenomics.com/v2',token=' ')
 
 
 # list my project
